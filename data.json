@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Milo",
+        "color": "Orange",
+        "age": 7,
+        "hasStripes": true,
+        "chonk": 19
+    },
+    {
+        "name": "Salem",
+        "color": "Black",
+        "age": 3,
+        "hasStripes": false,
+        "chonk": 13
+    },
+    {
+        "name": "Stinker",
+        "color": "Green",
+        "age": 98,
+        "hasStripes": true,
+        "chonk": 2
+    },
+    {
+        "name": "🐈‍⬛🐈😺😸❤️",
+        "color": "👾🦙",
+        "age": 20,
+        "hasStripes": true,
+        "chonk": 9
+    }
+]
