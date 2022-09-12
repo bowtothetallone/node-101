@@ -16,5 +16,11 @@ const dataFileContentsParsed = JSON.parse(dataFileContents)
 
 const catIndex = Math.floor(Math.random() * dataFileContentsParsed.length)
 const currentCat = dataFileContentsParsed[catIndex]
-console.log('What is this cat named?', currentCat.name)
-console.log('This cat is ' + currentCat.age + ' years old.')
+const catLog = `
+The time is now ${ new Date().toJSON() }
+What is this cat named? ${ currentCat.name }
+This cat is ${ currentCat.age } years old.
+`
+
+const outputFilePath = './catlog.txt'
+fs.writeFileSync(outputFilePath, catLog)
